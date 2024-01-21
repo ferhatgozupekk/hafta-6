@@ -15,3 +15,8 @@ export const StyledButton = styled.button`
     background-color: ${(props) => (props?.$primary ? "#9b59b6" : "f1c40f")};
   }
 `;
+
+// extend etme
+export const StrongButton = styled(StyledButton)`
+  border-width: 5px;
+`;
