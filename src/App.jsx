@@ -1,15 +1,15 @@
 import React from "react";
-import styled from "styled-components";
+
+import { StyledContainer } from "./components/styled";
+import { Button } from "./components/button";
 
 function App() {
-  const StyledContainer = styled.div`
-    background-color: aqua;
-    padding: 20px;
-  `;
-
   return (
     <>
-      <StyledContainer>merhaba</StyledContainer>
+      <StyledContainer>
+        styled component uygulandı
+        <Button></Button>
+      </StyledContainer>
     </>
   );
 }
