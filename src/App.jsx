@@ -42,8 +42,10 @@ function App() {
         <hr />
         <CanadaIcon></CanadaIcon>
         <h1>styled component uygulandı</h1>
-
-        <Button $primary>Button</Button>
+        <Button $primary className="brn mr-50">
+          Button
+        </Button>{" "}
+        ferhat gözüpek
         <br />
         <StrongButton $primary>Strong Button</StrongButton>
         <br />
