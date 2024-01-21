@@ -6,10 +6,11 @@ export const StyledButton = styled.button`
   border-radius: 6px;
   background-color: ${(props) => {
     console.log(props);
-    return props?.$primary ? "#3499db" : "transparent";
+    return props?.$primary ? props.theme.colors.primary : "transparent";
   }};
 
-  color: ${({ $primary }) => ($primary ? "white" : "black")};
+  color: ${({ $primary, theme }) =>
+    $primary ? theme.colors.textColor : "black"};
 
   &:hover {
     background-color: ${(props) => (props?.$primary ? "#9b59b6" : "f1c40f")};
