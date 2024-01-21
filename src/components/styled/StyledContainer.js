@@ -5,4 +5,8 @@ export const StyledContainer = styled.div`
   background-color: #ecef01;
   margin: 0 auto;
   padding: 20px;
+
+  h1 {
+    color: #e74c3c;
+  }
 `;

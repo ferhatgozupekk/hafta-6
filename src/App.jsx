@@ -7,9 +7,10 @@ function App() {
   return (
     <>
       <StyledContainer>
-        styled component uygulandı
-        <Button></Button>
+        <h1>styled component uygulandı</h1>
+        <Button $primary>Button</Button>
       </StyledContainer>
+      <h1>styled component uygulandı</h1>
     </>
   );
 }
